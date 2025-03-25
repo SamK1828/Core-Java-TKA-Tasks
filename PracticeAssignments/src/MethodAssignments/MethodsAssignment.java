@@ -1,6 +1,7 @@
-package MethodsAssignments;
+package MethodAssignments;
 
-public class MethodsQns {
+
+public class MethodsAssignment {
 
     // 1. Print "Hello, World!"
     public static void printHelloWorld() {
@@ -108,15 +109,15 @@ public class MethodsQns {
     public static void main(String[] args) {
         
         // Calling all methods
-        MethodsQns.printHelloWorld();
+        MethodsAssignment.printHelloWorld();
         
-        MethodsQns.printSum(10, 20);
+        MethodsAssignment.printSum(10, 20);
         
-        MethodsQns.checkEvenOrOdd(15);
+        MethodsAssignment.checkEvenOrOdd(15);
         
-        MethodsQns.printMultiplicationTable(5);
+        MethodsAssignment.printMultiplicationTable(5);
         
-        MethodsQns.swapNumbers(7, 3);
+        MethodsAssignment.swapNumbers(7, 3);
         
         printNumbers(10);
         
