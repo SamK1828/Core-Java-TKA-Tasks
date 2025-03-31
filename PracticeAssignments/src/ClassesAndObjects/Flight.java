@@ -28,7 +28,7 @@ public class Flight {
 }
 
 // Main Class to create objects
-class Main {
+class FlightMain {
     public static void main(String[] args) {
         Flight flight1 = new Flight("AI101", "Air India", "Delhi", "New York", "10:00 AM", 850.50);
         Flight flight2 = new Flight("EK502", "Emirates", "Dubai", "London", "3:00 PM", 750.75);

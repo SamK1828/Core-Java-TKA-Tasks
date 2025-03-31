@@ -33,7 +33,7 @@ public class Movie {
 }
 
 // Hotel Class to create objects
-class Main {
+class MovieMain {
     public static void main(String[] args) {
         Movie movie1 = new Movie("Inception", "Christopher Nolan", 2010, "Leonardo DiCaprio", "Ellen Page", 148,
                 "Sci-Fi", 8.8);

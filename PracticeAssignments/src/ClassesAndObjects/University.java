@@ -30,7 +30,7 @@ public class University {
         System.out.println("------------------------------");
     }
 }
-class Main{
+class UniversityMain{
     public static void main(String[] args) {
         // Creating objects of University class
         University uni1 = new University("DBATU University", "Lonere, Raigad", 20000, 2000, 1, 1636, "Engineering",

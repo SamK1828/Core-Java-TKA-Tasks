@@ -30,7 +30,7 @@ public class Sports {
 }
 
 // Vehicle Class to create objects
-class Main  {
+class SportsMain  {
     public static void main(String[] args) {
         Sports sport1 = new Sports("Cricket", "Chennai Super Kings", "Outdoor", "MS Dhoni", 11, "Chennai", 5);
         Sports sport2 = new Sports("Football", "FC Barcelona", "Outdoor", "Xavi", 11, "Barcelona", 26);
