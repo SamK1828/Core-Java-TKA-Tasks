@@ -76,122 +76,51 @@ The repository contains solutions to different Java programming problems, catego
 
 ## 📂 **Folder Structure**
 ```
-┣ 📂bin
- ┃ ┣ 📂Basic_Assignments
- ┃ ┃ ┣ 📜Assignment2.class
- ┃ ┃ ┣ 📜Assignment_1.class
- ┃ ┃ ┗ 📜LeapYearCheck.class
- ┃ ┣ 📂ClassesAndObjects
- ┃ ┃ ┣ 📂Qn1
- ┃ ┃ ┃ ┣ 📜Animal.class
- ┃ ┃ ┃ ┗ 📜Jungle.class
- ┃ ┃ ┣ 📂Qn2
- ┃ ┃ ┃ ┣ 📜Car.class
- ┃ ┃ ┃ ┗ 📜Vehicle.class
- ┃ ┃ ┣ 📂Qn3
- ┃ ┃ ┃ ┣ 📜Employee.class
- ┃ ┃ ┃ ┗ 📜Main.class
- ┃ ┃ ┣ 📂Qn4
- ┃ ┃ ┃ ┣ 📜Food.class
- ┃ ┃ ┃ ┗ 📜Hotel.class
- ┃ ┃ ┣ 📂Qn5
- ┃ ┃ ┃ ┣ 📜Student.class
- ┃ ┃ ┃ ┗ 📜StudentDetails.class
- ┃ ┃ ┣ 📜Employee.class
- ┃ ┃ ┣ 📜EmployeeDetails.class
- ┃ ┃ ┣ 📜Flight.class
- ┃ ┃ ┣ 📜FlightMain.class
- ┃ ┃ ┣ 📜Movie.class
- ┃ ┃ ┣ 📜MovieMain.class
- ┃ ┃ ┣ 📜Sports.class
- ┃ ┃ ┣ 📜SportsMain.class
- ┃ ┃ ┣ 📜University.class
- ┃ ┃ ┗ 📜UniversityMain.class
- ┃ ┣ 📂ControlStatementsAssignments
- ┃ ┃ ┣ 📜IfElse_Assignments.class
- ┃ ┃ ┣ 📜SwitchAndIf_ElseAssignments.class
- ┃ ┃ ┗ 📜SwitchStatements_Assignments.class
- ┃ ┣ 📂IterativeStatementsAssignments
- ┃ ┃ ┣ 📜DoWhileLoop_Assignment.class
- ┃ ┃ ┣ 📜ForLoop_Assignment.class
- ┃ ┃ ┗ 📜PracticeQn_2.class
- ┃ ┣ 📂MethodAssignments
- ┃ ┃ ┣ 📜MethodsAssignment.class
- ┃ ┃ ┗ 📜MethodsWithReturnType.class
- ┃ ┗ 📜PracticeMethods.class
- ┣ 📂PracticeAssignments
- ┃ ┣ 📂.vscode
- ┃ ┃ ┗ 📜settings.json
- ┃ ┣ 📂bin
- ┃ ┃ ┣ 📂Basic_Assignments
- ┃ ┃ ┃ ┣ 📜Assignment2.class
- ┃ ┃ ┃ ┣ 📜Assignment_1.class
- ┃ ┃ ┃ ┗ 📜LeapYearCheck.class
- ┃ ┃ ┣ 📂ClassesAndObjects
- ┃ ┃ ┃ ┣ 📂Qn1
- ┃ ┃ ┃ ┃ ┣ 📜Animal.class
- ┃ ┃ ┃ ┃ ┗ 📜Jungle.class
- ┃ ┃ ┃ ┣ 📂Qn2
- ┃ ┃ ┃ ┃ ┣ 📜Car.class
- ┃ ┃ ┃ ┃ ┗ 📜Vehicle.class
- ┃ ┃ ┃ ┣ 📂Qn3
- ┃ ┃ ┃ ┃ ┣ 📜Employee.class
- ┃ ┃ ┃ ┃ ┗ 📜Main.class
- ┃ ┃ ┃ ┣ 📂Qn4
- ┃ ┃ ┃ ┃ ┣ 📜Food.class
- ┃ ┃ ┃ ┃ ┗ 📜Hotel.class
- ┃ ┃ ┃ ┗ 📂Qn5
- ┃ ┃ ┃ ┃ ┣ 📜Student.class
- ┃ ┃ ┃ ┃ ┗ 📜StudentDetails.class
- ┃ ┃ ┣ 📂ControlStatementsAssignments
- ┃ ┃ ┃ ┣ 📜IfElse_Assignments.class
- ┃ ┃ ┃ ┣ 📜SwitchAndIf_ElseAssignments.class
- ┃ ┃ ┃ ┗ 📜SwitchStatements_Assignments.class
- ┃ ┃ ┣ 📂IterativeStatementsAssignments
- ┃ ┃ ┃ ┣ 📜DoWhileLoop_Assignment.class
- ┃ ┃ ┃ ┣ 📜ForLoop_Assignment.class
- ┃ ┃ ┃ ┗ 📜PracticeQn_2.class
- ┃ ┃ ┣ 📂MethodAssignments
- ┃ ┃ ┃ ┣ 📜MethodsAssignment.class
- ┃ ┃ ┃ ┗ 📜MethodsWithReturnType.class
- ┃ ┃ ┗ 📜PracticeMethods.class
- ┃ ┣ 📂lib
- ┃ ┣ 📂src
- ┃ ┃ ┣ 📂Basic_Assignments
- ┃ ┃ ┃ ┣ 📜Assignment2.java
- ┃ ┃ ┃ ┗ 📜Assignment_1.java
- ┃ ┃ ┣ 📂ClassesAndObjects
- ┃ ┃ ┃ ┣ 📂Qn1
- ┃ ┃ ┃ ┃ ┣ 📜Animal.java
- ┃ ┃ ┃ ┃ ┗ 📜Jungle.java
- ┃ ┃ ┃ ┣ 📂Qn2
- ┃ ┃ ┃ ┃ ┣ 📜Car.java
- ┃ ┃ ┃ ┃ ┗ 📜Vehicle.java
- ┃ ┃ ┃ ┣ 📂Qn3
- ┃ ┃ ┃ ┃ ┣ 📜Employee.java
- ┃ ┃ ┃ ┃ ┗ 📜Main.java
- ┃ ┃ ┃ ┣ 📂Qn4
- ┃ ┃ ┃ ┃ ┣ 📜Food.java
- ┃ ┃ ┃ ┃ ┗ 📜Hotel.java
- ┃ ┃ ┃ ┣ 📂Qn5
- ┃ ┃ ┃ ┃ ┣ 📜Student.java
- ┃ ┃ ┃ ┃ ┗ 📜StudentDetails.java
- ┃ ┃ ┃ ┣ 📜Employee.java
- ┃ ┃ ┃ ┣ 📜Flight.java
- ┃ ┃ ┃ ┣ 📜Movie.java
- ┃ ┃ ┃ ┣ 📜Sports.java
- ┃ ┃ ┃ ┗ 📜University.java
- ┃ ┃ ┣ 📂ControlStatementsAssignments
- ┃ ┃ ┃ ┣ 📜IfElse_Assignments.java
- ┃ ┃ ┃ ┣ 📜SwitchAndIf_ElseAssignments.java
- ┃ ┃ ┃ ┗ 📜SwitchStatements_Assignments.java
- ┃ ┃ ┣ 📂IterativeStatementsAssignments
- ┃ ┃ ┃ ┣ 📜DoWhileLoop_Assignment.java
- ┃ ┃ ┃ ┣ 📜ForLoop_Assignment.java
- ┃ ┃ ┃ ┗ 📜PracticeQn_2.java
- ┃ ┃ ┣ 📂MethodAssignments
- ┃ ┃ ┃ ┣ 📜MethodsAssignment.java
- ┃ ┃ ┃ ┗ 📜MethodsWithReturnType.java
+PracticeAssignments
+├─ .classpath
+├─ .project
+├─ PracticeAssignments
+│  ├─ .classpath
+│  ├─ .project
+│  ├─ lib
+│  └─ src
+│     ├─ Basic_Assignments
+│     │  ├─ Assignment2.java
+│     │  └─ Assignment_1.java
+│     ├─ ClassesAndObjects
+│     │  ├─ Employee.java
+│     │  ├─ Flight.java
+│     │  ├─ Movie.java
+│     │  ├─ Qn1
+│     │  │  ├─ Animal.java
+│     │  │  └─ Jungle.java
+│     │  ├─ Qn2
+│     │  │  ├─ Car.java
+│     │  │  └─ Vehicle.java
+│     │  ├─ Qn3
+│     │  │  ├─ Employee.java
+│     │  │  └─ Main.java
+│     │  ├─ Qn4
+│     │  │  ├─ Food.java
+│     │  │  └─ Hotel.java
+│     │  ├─ Qn5
+│     │  │  ├─ Student.java
+│     │  │  └─ StudentDetails.java
+│     │  ├─ Sports.java
+│     │  └─ University.java
+│     ├─ ControlStatementsAssignments
+│     │  ├─ IfElse_Assignments.java
+│     │  ├─ SwitchAndIf_ElseAssignments.java
+│     │  └─ SwitchStatements_Assignments.java
+│     ├─ IterativeStatementsAssignments
+│     │  ├─ DoWhileLoop_Assignment.java
+│     │  ├─ ForLoop_Assignment.java
+│     │  └─ PracticeQn_2.java
+│     ├─ MethodAssignments
+│     │  ├─ MethodsAssignment.java
+│     │  └─ MethodsWithReturnType.java
+│     └─ PracticeMethods.java
+└─ README.md
 ```
 
 ## 🎯 **Learning Outcomes**
