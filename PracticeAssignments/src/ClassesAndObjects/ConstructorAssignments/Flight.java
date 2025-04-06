@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package ClassesAndObjects.ConstructorAssignments;
 
 public class Flight {
     String flightNumber, airline, departureCity, destinationCity, departureTime;

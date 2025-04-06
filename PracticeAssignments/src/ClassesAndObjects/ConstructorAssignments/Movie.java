@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package ClassesAndObjects.ConstructorAssignments;
 
 public class Movie {
     String title, director, leadActor, leadActress, genre;

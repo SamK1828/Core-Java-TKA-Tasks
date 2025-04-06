@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package ClassesAndObjects.ConstructorAssignments;
 
 public class University {
     String universityName, location, department, graduationLevel;

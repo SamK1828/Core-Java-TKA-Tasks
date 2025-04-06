@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package ClassesAndObjects.ConstructorAssignments;
 
 public class Employee {
     int empId, age, salary;

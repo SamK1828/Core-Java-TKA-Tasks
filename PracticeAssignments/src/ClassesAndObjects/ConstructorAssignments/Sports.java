@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package ClassesAndObjects.ConstructorAssignments;
 
 public class Sports {
     String sportName, teamName, sportType, coachName, homeCity;
