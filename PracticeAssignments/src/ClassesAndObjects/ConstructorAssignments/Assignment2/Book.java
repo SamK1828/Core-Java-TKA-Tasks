@@ -34,7 +34,7 @@ public class Book {
     }
 }
 
-class Main {
+class BookMain {
     public static void main(String[] args) {
         Book b = new Book(101, "Atomic Habits", "James Clear", 399.0, 2);
         b.displayBookDetails();

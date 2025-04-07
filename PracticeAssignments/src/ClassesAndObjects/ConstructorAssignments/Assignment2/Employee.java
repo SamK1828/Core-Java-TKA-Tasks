@@ -23,7 +23,7 @@ public class Employee {
     }
 }
 
-class Main {
+class EmployeeMain {
     public static void main(String[] args) {
         Employee emp = new Employee(101, "Rahul", "Developer", 45000);
         emp.displayDetails();

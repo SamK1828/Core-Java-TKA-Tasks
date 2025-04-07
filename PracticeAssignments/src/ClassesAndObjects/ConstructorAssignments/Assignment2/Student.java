@@ -31,7 +31,7 @@ public class Student {
     }
 }
 
-class Main {
+class StudentMain {
     public static void main(String[] args) {
         Student s1 = new Student(101, "Alice", "B.Tech", 2, 82.5);
         s1.displayDetails();

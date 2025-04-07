@@ -32,7 +32,7 @@ public class BankAccount {
 
 class Main {
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount(2001, "John Doe", 1000.0);
+        BankAccount acc = new BankAccount(2001, "Sam K", 1000.0);
         acc.displayAccountDetails();
         acc.deposit(500);
         acc.withdraw(300);
