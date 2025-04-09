@@ -1,4 +1,4 @@
-package practice.scannerAssignment1;
+package practiceScanner.scannerAssignment1;
 
 public class Student {
 	public void showInfo(String name, String grade, int roll, float percentage, boolean feesPaid) {

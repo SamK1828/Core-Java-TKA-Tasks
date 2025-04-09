@@ -1,4 +1,4 @@
-package practice.scannerAssignment1;
+package practiceScanner.scannerAssignment1;
 
 import java.util.Scanner;
 

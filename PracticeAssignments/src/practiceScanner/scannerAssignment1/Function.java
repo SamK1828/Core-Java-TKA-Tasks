@@ -1,4 +1,4 @@
-package practice.scannerAssignment1;
+package practiceScanner.scannerAssignment1;
 
 public class Function {
 	int n;
