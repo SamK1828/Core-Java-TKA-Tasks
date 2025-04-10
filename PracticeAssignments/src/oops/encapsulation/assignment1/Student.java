@@ -60,9 +60,12 @@ public class Student {
             System.out.println("Grade: B");
         } else if (average >= 60) {
             System.out.println("Grade: C");
+        } else if (average >= 50) {
+            System.out.println("Grade: D");
         } else {
-            System.out.println("Grade: Fail");
+            System.out.println("Grade: F");
         }
+        
     }
 
     public static void main(String[] args) {
