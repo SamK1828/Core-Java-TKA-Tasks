@@ -65,7 +65,7 @@ public class Student {
         } else {
             System.out.println("Grade: F");
         }
-        
+
     }
 
     public static void main(String[] args) {
@@ -84,11 +84,12 @@ public class Student {
             System.out.print("Enter marks for subject " + (i + 1) + ": ");
             marks[i] = sc.nextInt();
         }
+        sc.close();
         st.setMarks(marks);
 
         st.displayDetails();
         st.calculateGrade();
 
-        sc.close();
+        
     }
 }
