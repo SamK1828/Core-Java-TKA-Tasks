@@ -27,17 +27,17 @@ class Triangle extends Polygon {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Triangle t = new Triangle();
+        Triangle t1 = new Triangle();
 
         System.out.print("Enter base: ");
         int base = sc.nextInt();
         System.out.print("Enter height: ");
         int height = sc.nextInt();
 
-        t.setTriangle(base, height);
-        t.showShape();
-        t.showPolygon();
-        t.showTriangle();
+        t1.setTriangle(base, height);
+        t1.showShape();
+        t1.showPolygon();
+        t1.showTriangle();
 
         sc.close();
     }
