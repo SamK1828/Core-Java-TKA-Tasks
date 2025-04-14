@@ -76,51 +76,45 @@ The repository contains solutions to different Java programming problems, catego
 
 ## 📂 **Folder Structure**
 ```
-PracticeAssignments
-├─ .classpath
-├─ .project
-├─ PracticeAssignments
-│  ├─ .classpath
-│  ├─ .project
-│  ├─ lib
-│  └─ src
-│     ├─ Basic_Assignments
-│     │  ├─ Assignment2.java
-│     │  └─ Assignment_1.java
-│     ├─ ClassesAndObjects
-│     │  ├─ Employee.java
-│     │  ├─ Flight.java
-│     │  ├─ Movie.java
-│     │  ├─ Qn1
-│     │  │  ├─ Animal.java
-│     │  │  └─ Jungle.java
-│     │  ├─ Qn2
-│     │  │  ├─ Car.java
-│     │  │  └─ Vehicle.java
-│     │  ├─ Qn3
-│     │  │  ├─ Employee.java
-│     │  │  └─ Main.java
-│     │  ├─ Qn4
-│     │  │  ├─ Food.java
-│     │  │  └─ Hotel.java
-│     │  ├─ Qn5
-│     │  │  ├─ Student.java
-│     │  │  └─ StudentDetails.java
-│     │  ├─ Sports.java
-│     │  └─ University.java
-│     ├─ ControlStatementsAssignments
-│     │  ├─ IfElse_Assignments.java
-│     │  ├─ SwitchAndIf_ElseAssignments.java
-│     │  └─ SwitchStatements_Assignments.java
-│     ├─ IterativeStatementsAssignments
-│     │  ├─ DoWhileLoop_Assignment.java
-│     │  ├─ ForLoop_Assignment.java
-│     │  └─ PracticeQn_2.java
-│     ├─ MethodAssignments
-│     │  ├─ MethodsAssignment.java
-│     │  └─ MethodsWithReturnType.java
-│     └─ PracticeMethods.java
-└─ README.md
+├───.vscode
+├───bin
+│   ├───Basic_Assignments
+│   ├───ClassesAndObjects
+│   │   ├───Qn1
+│   │   ├───Qn2
+│   │   ├───Qn3
+│   │   ├───Qn4
+│   │   └───Qn5
+│   ├───ControlStatementsAssignments
+│   ├───IterativeStatementsAssignments
+│   └───MethodAssignments
+├───lib
+└───src
+    ├───Basic_Assignments
+    ├───ClassesAndObjects
+    │   ├───ConstructorAssignments
+    │   │   └───Assignment2
+    │   ├───Qn1
+    │   ├───Qn2
+    │   ├───Qn3
+    │   ├───Qn4
+    │   └───Qn5
+    ├───ControlStatementsAssignments
+    ├───IterativeStatementsAssignments
+    ├───MethodAssignments
+    ├───oops
+    │   ├───encapsulation
+    │   │   └───assignment1
+    │   └───inheritance
+    │       ├───assignment1
+    │       │   ├───animal_and_dog
+    │       │   ├───car_and_vehicle
+    │       │   ├───employee_and_salary
+    │       │   └───marks_and_salary
+    │       └───assignment2
+    └───practiceScanner
+        ├───scannerAssignment1
+        └───scannerAssignment2
 ```
 
 ## 🎯 **Learning Outcomes**
