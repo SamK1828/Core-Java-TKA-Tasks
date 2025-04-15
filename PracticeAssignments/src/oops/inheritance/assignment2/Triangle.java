@@ -3,13 +3,13 @@ package oops.inheritance.assignment2;
 import java.util.Scanner;
 
 class Shape {
-    void showShape() {
+    public void showShape() {
         System.out.println("This is a shape.");
     }
 }
 
 class Polygon extends Shape {
-    void showPolygon() {
+    public void showPolygon() {
         System.out.println("This is a polygon.");
     }
 }
@@ -17,7 +17,7 @@ class Polygon extends Shape {
 class Triangle extends Polygon {
     int base, height;
 
-    void setTriangle(int b, int h) {
+    public void setTriangle(int b, int h) {
         base = b;
         height = h;
     }
