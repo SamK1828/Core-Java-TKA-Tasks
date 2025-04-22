@@ -14,7 +14,7 @@ class Polygon extends Shape {
     }
 }
 
-class Triangle extends Polygon {
+public class Triangle extends Polygon {
     int base, height;
 
     public void setTriangle(int b, int h) {
@@ -22,7 +22,7 @@ class Triangle extends Polygon {
         height = h;
     }
 
-    void showTriangle() {
+    public void showTriangle() {
         System.out.println("Triangle area: " + (0.5 * base * height));
     }
     public static void main(String[] args) {
