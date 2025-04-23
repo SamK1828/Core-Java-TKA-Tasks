@@ -7,7 +7,7 @@ package oops.polymorphism.assignment1;
 
     Area of a square
  */
-public class Shape {
+class Shape {
      // Method to calculate area of a circle
      public void area(double radius) {
         double area = 3.14 * radius * radius; // Using 3.14 as an approximation of Pi
