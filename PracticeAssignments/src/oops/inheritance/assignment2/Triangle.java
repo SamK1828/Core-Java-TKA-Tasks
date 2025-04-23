@@ -3,7 +3,7 @@ package oops.inheritance.assignment2;
 import java.util.Scanner;
 
 class Shape {
-    public void showShape() {
+    void showShape() {
         System.out.println("This is a shape.");
     }
 }
