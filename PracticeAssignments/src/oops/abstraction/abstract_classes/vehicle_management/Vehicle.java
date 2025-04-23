@@ -1,5 +1,9 @@
 package oops.abstraction.abstract_classes.vehicle_management;
 
-abstract class Vehicle {
-    abstract void move();
+public abstract class Vehicle {
+    public abstract void move();
+    
+    public void displayType() {
+        System.out.println("This is a vehicle.");
+    }
 }
