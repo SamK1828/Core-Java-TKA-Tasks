@@ -2,13 +2,13 @@ package oops.inheritance.assignment2;
 
 import java.util.Scanner;
 
-class Shape {
+class inShape {
     void showShape() {
         System.out.println("This is a shape.");
     }
 }
 
-class Polygon extends Shape {
+class Polygon extends inShape {
     public void showPolygon() {
         System.out.println("This is a polygon.");
     }

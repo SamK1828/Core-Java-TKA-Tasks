@@ -7,7 +7,7 @@ package oops.polymorphism.assignment1;
 
     Area of a square
  */
-class Shape {
+class shape {
      // Method to calculate area of a circle
      public void area(double radius) {
         double area = 3.14 * radius * radius; // Using 3.14 as an approximation of Pi
@@ -27,7 +27,7 @@ class Shape {
     }
 
     public static void main(String[] args) {
-        Shape shape = new Shape();
+        shape shape = new shape();
         shape.area(5.0);          // Area of circle with radius 5.0
         shape.area(4.0, 6.0);     // Area of rectangle with length 4.0 and width 6.0
         shape.area(4);          // Area of square with side 4
