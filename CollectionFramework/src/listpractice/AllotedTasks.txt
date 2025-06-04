@@ -1,0 +1,19 @@
+Tasks:
+
+1. Create array list of employees where Employee is user-defined class. Find the highest paid employee name.
+class Employee {
+	name, address, email, desc, salary
+}
+
+2. Write a menu driven code for adding removing and reading data of array list.
+1. Add
+2. Remove
+3. Check
+4. Display
+5. Exit
+
+Enter your choice:
+
+3. Accept names of 10 friends and print only those friend names whose name starting with s or m. Also the name must have 3 vowels in it.
+
+4. WAP to store objects of Teacher, Students and Staff in single array list and print only names of all staff members.
