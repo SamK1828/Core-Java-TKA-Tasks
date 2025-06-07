@@ -1,4 +1,4 @@
-# 🚀 Java Internship Tasks – The Kiran Academy
+# 🚀 Core Java Internship Tasks – The Kiran Academy
 
 Welcome to my Java Internship repository! 🎉  
 This repository contains a collection of Java programs developed as part of my internship at **The Kiran Academy**.  
