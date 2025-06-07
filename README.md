@@ -75,46 +75,237 @@ The repository contains solutions to different Java programming problems, catego
 - **IDE:** Eclipse / IntelliJ IDEA / VS Code
 
 ## 📂 **Folder Structure**
+
 ```
-├───.vscode
-├───bin
-│   ├───Basic_Assignments
-│   ├───ClassesAndObjects
-│   │   ├───Qn1
-│   │   ├───Qn2
-│   │   ├───Qn3
-│   │   ├───Qn4
-│   │   └───Qn5
-│   ├───ControlStatementsAssignments
-│   ├───IterativeStatementsAssignments
-│   └───MethodAssignments
-├───lib
-└───src
-    ├───Basic_Assignments
-    ├───ClassesAndObjects
-    │   ├───ConstructorAssignments
-    │   │   └───Assignment2
-    │   ├───Qn1
-    │   ├───Qn2
-    │   ├───Qn3
-    │   ├───Qn4
-    │   └───Qn5
-    ├───ControlStatementsAssignments
-    ├───IterativeStatementsAssignments
-    ├───MethodAssignments
-    ├───oops
-    │   ├───encapsulation
-    │   │   └───assignment1
-    │   └───inheritance
-    │       ├───assignment1
-    │       │   ├───animal_and_dog
-    │       │   ├───car_and_vehicle
-    │       │   ├───employee_and_salary
-    │       │   └───marks_and_salary
-    │       └───assignment2
-    └───practiceScanner
-        ├───scannerAssignment1
-        └───scannerAssignment2
+Core-Java-TKA-Tasks
+├─ .editorconfig
+└─ Core-Java-TKA-Tasks
+   ├─ .classpath
+   ├─ .project
+   ├─ bin
+   └─ src
+   │     ├─ Basic_Assignments
+   │     │  ├─ Assignment2.java
+   │     │  └─ Assignment_1.java
+   │     ├─ ClassesAndObjects
+   │     │  ├─ ConstructorAssignments
+   │     │  │  ├─ Assignment2
+   │     │  │  │  ├─ BankAccount.java
+   │     │  │  │  ├─ Book.java
+   │     │  │  │  ├─ Employee.java
+   │     │  │  │  ├─ Product.java
+   │     │  │  │  └─ Student.java
+   │     │  │  ├─ Employee.java
+   │     │  │  ├─ Flight.java
+   │     │  │  ├─ Movie.java
+   │     │  │  ├─ Sports.java
+   │     │  │  └─ University.java
+   │     │  ├─ Qn1
+   │     │  │  ├─ Animal.java
+   │     │  │  └─ Jungle.java
+   │     │  ├─ Qn2
+   │     │  │  ├─ Car.java
+   │     │  │  └─ Vehicle.java
+   │     │  ├─ Qn3
+   │     │  │  ├─ Employee.java
+   │     │  │  └─ Main.java
+   │     │  ├─ Qn4
+   │     │  │  ├─ Food.java
+   │     │  │  └─ Hotel.java
+   │     │  └─ Qn5
+   │     │     ├─ Student.java
+   │     │     └─ StudentDetails.java
+   │     ├─ ControlStatementsAssignments
+   │     │  ├─ IfElse_Assignments.java
+   │     │  ├─ SwitchAndIf_ElseAssignments.java
+   │     │  └─ SwitchStatements_Assignments.java
+   │     ├─ IterativeStatementsAssignments
+   │     │  ├─ DoWhileLoop_Assignment.java
+   │     │  ├─ ForLoop_Assignment.java
+   │     │  └─ PracticeQn_2.java
+   │     ├─ MethodAssignments
+   │     │  ├─ MethodsAssignment.java
+   │     │  └─ MethodsWithReturnType.java
+   │     ├─ oops
+   │     │  ├─ abstraction
+   │     │  │  ├─ abstract_classes
+   │     │  │  │  ├─ animal_sounds
+   │     │  │  │  │  ├─ Animal.java
+   │     │  │  │  │  ├─ Cat.java
+   │     │  │  │  │  ├─ Cow.java
+   │     │  │  │  │  └─ Dog.java
+   │     │  │  │  ├─ applicane_power_use
+   │     │  │  │  │  ├─ Appliance.java
+   │     │  │  │  │  ├─ Fan.java
+   │     │  │  │  │  └─ Heater.java
+   │     │  │  │  ├─ Main.java
+   │     │  │  │  ├─ person_details
+   │     │  │  │  │  ├─ Person.java
+   │     │  │  │  │  ├─ Student.java
+   │     │  │  │  │  └─ Teacher.java
+   │     │  │  │  ├─ shape_area_calculator
+   │     │  │  │  │  ├─ DrawShape.java
+   │     │  │  │  │  └─ Rectangle.java
+   │     │  │  │  └─ vehicle_management
+   │     │  │  │     ├─ Bike.java
+   │     │  │  │     ├─ Truck.java
+   │     │  │  │     └─ Vehicle.java
+   │     │  │  ├─ combine_assignment
+   │     │  │  │  ├─ appliance_example
+   │     │  │  │  │  ├─ ApplianceSwitch.java
+   │     │  │  │  │  ├─ Refrigerator.java
+   │     │  │  │  │  └─ Switchable.java
+   │     │  │  │  ├─ device_example
+   │     │  │  │  │  ├─ ElectronicDevice.java
+   │     │  │  │  │  ├─ Operatable.java
+   │     │  │  │  │  └─ WashingMachine.java
+   │     │  │  │  ├─ employee_hierarchy
+   │     │  │  │  │  ├─ Emp.java
+   │     │  │  │  │  ├─ Manager.java
+   │     │  │  │  │  └─ SalaryCalculable.java
+   │     │  │  │  ├─ notification_system
+   │     │  │  │  │  ├─ EmailMessage.java
+   │     │  │  │  │  ├─ Message.java
+   │     │  │  │  │  ├─ Notifiable.java
+   │     │  │  │  │  └─ SMSMessage.java
+   │     │  │  │  ├─ payment_system
+   │     │  │  │  │  ├─ CreditCardPayment.java
+   │     │  │  │  │  ├─ Payable.java
+   │     │  │  │  │  └─ Payment.java
+   │     │  │  │  ├─ shape_hierarchy
+   │     │  │  │  │  ├─ CircleShape.java
+   │     │  │  │  │  ├─ DrawSquare.java
+   │     │  │  │  │  ├─ DrawTriangle.java
+   │     │  │  │  │  └─ Rectangle2.java
+   │     │  │  │  └─ transportation_system
+   │     │  │  │     ├─ Bus.java
+   │     │  │  │     ├─ Movable.java
+   │     │  │  │     └─ Transport.java
+   │     │  │  └─ interfaces
+   │     │  │     ├─ bank_interface
+   │     │  │     │  ├─ Bank.java
+   │     │  │     │  ├─ HDFC.java
+   │     │  │     │  ├─ ICICI.java
+   │     │  │     │  └─ SBI.java
+   │     │  │     ├─ device_charging
+   │     │  │     │  ├─ Chargeable.java
+   │     │  │     │  ├─ Laptop.java
+   │     │  │     │  └─ Mobile.java
+   │     │  │     ├─ flyable_interface
+   │     │  │     │  ├─ Airplane.java
+   │     │  │     │  ├─ Bird.java
+   │     │  │     │  └─ Flyable.java
+   │     │  │     ├─ mulitple_interface
+   │     │  │     │  ├─ Document.java
+   │     │  │     │  ├─ Printable.java
+   │     │  │     │  └─ Showable.java
+   │     │  │     ├─ playable_game
+   │     │  │     │  ├─ Basketball.java
+   │     │  │     │  ├─ Football.java
+   │     │  │     │  ├─ Hockey.java
+   │     │  │     │  └─ Playable.java
+   │     │  │     ├─ remote_device
+   │     │  │     │  ├─ FanRemote.java
+   │     │  │     │  ├─ RemoteControl.java
+   │     │  │     │  └─ TV.java
+   │     │  │     └─ shape_drawing
+   │     │  │        └─ Drawable.java
+   │     │  ├─ encapsulation
+   │     │  │  ├─ assignment1
+   │     │  │  │  ├─ Employee.java
+   │     │  │  │  ├─ Hospital.java
+   │     │  │  │  ├─ Library.java
+   │     │  │  │  ├─ Movies.java
+   │     │  │  │  └─ Student.java
+   │     │  │  └─ assignment2
+   │     │  │     ├─ flight_management
+   │     │  │     │  ├─ Flight.java
+   │     │  │     │  └─ FlightReception.java
+   │     │  │     └─ hotel_management
+   │     │  │        ├─ HotelReception.java
+   │     │  │        └─ HotelRoom.java
+   │     │  ├─ inheritance
+   │     │  │  ├─ assignment1
+   │     │  │  │  ├─ animal_and_dog
+   │     │  │  │  │  ├─ Animal.java
+   │     │  │  │  │  └─ Dog.java
+   │     │  │  │  ├─ car_and_vehicle
+   │     │  │  │  │  ├─ Car.java
+   │     │  │  │  │  └─ Vehicle.java
+   │     │  │  │  ├─ employee_and_salary
+   │     │  │  │  │  ├─ Employee.java
+   │     │  │  │  │  └─ Salary.java
+   │     │  │  │  └─ marks_and_salary
+   │     │  │  │     ├─ Marks.java
+   │     │  │  │     └─ Student.java
+   │     │  │  ├─ assignment2
+   │     │  │  │  ├─ Car.java
+   │     │  │  │  ├─ Circle.java
+   │     │  │  │  ├─ Fan.java
+   │     │  │  │  ├─ Human.java
+   │     │  │  │  ├─ Laptop.java
+   │     │  │  │  ├─ Manager.java
+   │     │  │  │  ├─ MathTeacher.java
+   │     │  │  │  ├─ Novel.java
+   │     │  │  │  ├─ Smartphone.java
+   │     │  │  │  └─ Triangle.java
+   │     │  │  ├─ assignment3
+   │     │  │  │  └─ student_and_employee
+   │     │  │  │     ├─ Employee.java
+   │     │  │  │     ├─ MainTest.java
+   │     │  │  │     ├─ Person.java
+   │     │  │  │     └─ Student.java
+   │     │  │  └─ assignment4
+   │     │  │     ├─ Book.java
+   │     │  │     ├─ Mobile.java
+   │     │  │     └─ Teacher.java
+   │     │  ├─ polymorphism
+   │     │  │  └─ assignment1
+   │     │  │     ├─ Animal.java
+   │     │  │     ├─ BankAccount.java
+   │     │  │     ├─ Bird.java
+   │     │  │     ├─ Calculator.java
+   │     │  │     ├─ Display.java
+   │     │  │     ├─ DrawShape.java
+   │     │  │     ├─ Employee.java
+   │     │  │     ├─ Shape.java
+   │     │  │     ├─ Student.java
+   │     │  │     └─ VehicleTest.java
+   │     │  └─ this_and_super
+   │     │     ├─ A.java
+   │     │     ├─ Animal.java
+   │     │     ├─ Box.java
+   │     │     ├─ ConstructorChain.java
+   │     │     ├─ Employee.java
+   │     │     ├─ MainThisSuperDemo.java
+   │     │     ├─ Parent.java
+   │     │     ├─ PassThis.java
+   │     │     ├─ Product.java
+   │     │     ├─ Shape.java
+   │     │     └─ Student.java
+   │     ├─ PracticeMethods.java
+   │     └─ practiceScanner
+   │        ├─ scannerAssignment1
+   │        │  ├─ AtmWithdrawal.java
+   │        │  ├─ Book.java
+   │        │  ├─ Employee.java
+   │        │  ├─ Flight.java
+   │        │  ├─ Function.java
+   │        │  ├─ MainCallingClass.java
+   │        │  ├─ Movie.java
+   │        │  ├─ Product.java
+   │        │  ├─ Sports.java
+   │        │  ├─ Student.java
+   │        │  ├─ StudentInfo.java
+   │        │  └─ University.java
+   │        └─ scannerAssignment2
+   │           ├─ ArithmeticOperations.java
+   │           ├─ BankAccount.java
+   │           ├─ Book.java
+   │           ├─ Employee.java
+   │           ├─ FoodBill.java
+   │           └─ StudentGrading.java
+   └─ README.md
 ```
 
 ## 🎯 **Learning Outcomes**
