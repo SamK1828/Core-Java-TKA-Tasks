@@ -11,7 +11,7 @@ public class MainThisSuperDemo {
 
         // 2. Constructor chaining with this()
         ConstructorChain cc = new ConstructorChain();
-
+        cc.toString();
         System.out.println("-----------------------------");
 
         // 3. Box using this for object reference
@@ -29,7 +29,7 @@ public class MainThisSuperDemo {
 
         // 5. super() in constructor
         Dog dog = new Dog();
-
+        dog.toString();
         System.out.println("-----------------------------");
 
         // 6. Overridden method with super.show()
