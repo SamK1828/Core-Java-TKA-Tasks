@@ -1,8 +1,8 @@
-package array_string_assignment;
+package arraystringassignment;
 
 import java.util.Scanner;
 
-public class SecondSmallestElement {
+public class SecondLargestElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[5];
@@ -10,16 +10,16 @@ public class SecondSmallestElement {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        int first = Integer.MAX_VALUE, second = Integer.MAX_VALUE;
+        int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE;
         for (int num : arr) {
-            if (num < first) {
+            if (num > first) {
                 second = first;
                 first = num;
-            } else if (num < second && num != first) {
+            } else if (num > second && num != first) {
                 second = num;
             }
         }
-        System.out.println("Second smallest: " + second);
+        System.out.println("Second largest: " + second);
         sc.close();
     }
 }

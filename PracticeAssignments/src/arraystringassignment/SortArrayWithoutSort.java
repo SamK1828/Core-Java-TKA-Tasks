@@ -1,4 +1,4 @@
-package array_string_assignment;
+package arraystringassignment;
 
 import java.util.Scanner;
 
